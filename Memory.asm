@@ -10,7 +10,6 @@ _start:
         mov %ecx, %esp
         mov %edx, 4 #len
         int 0x80
-
         #exit syscall 
         mov %eax, 1
         mov %ebx, 65
